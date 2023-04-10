@@ -1,25 +1,61 @@
-<?php require 'parts/header.php' ?>
+  <?php require 'parts/header.php' ?>
 
-    <div class="px-4 py-5 my-5 text-center">
-        <!-- <img class="d-block mx-auto mb-4" src="#" alt="Logo" width="72" height="57"> -->
-        <h1 class="display-5 fw-bold">My project</h1>
-        <div class="col-lg-6 mx-auto">
-        <h3 class="lead mb-4">Hello, guys! My name is Mirjalol and this is my project on PHP. </h3>
-        <p>I think, PHP is perfect programing language!</p>
-        </div>
+
+    <div class="container marketing">
+
+    <?= require 'parts/hero.php' ?>
+
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7" style="vertical-align: middle;">
+        <h2 class="featurette-heading fw-normal lh-1">My programme language. <span class="text-body-secondary">PHP.</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="resources/img/php.svg" style="max-width: 400px; margin: 0 auto;">
+      </div>
     </div>
 
-    <div class="container">
-    <div class="col-12">
-        <div class="row">
-            <!-- <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"> -->
-                <div class="col-10">
-                    <p class="text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, omnis? Temporibus quo eveniet eaque odio, dolores, debitis sunt pariatur atque aliquid similique optio illo maxime nulla, mollitia provident in minima?</p>
-                </div>
-            <!-- </div> -->
-        </div>
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">Main framework. <span class="text-body-secondary">LARAVEL.</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="col-md-5">
+            <img src="resources/img/laravel.svg" style="max-width: 400px">
+      </div>
     </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <a class="text-dark" style="text-decoration: none;" href="/portfolio">
+          <h2 class="featurette-heading fw-normal lh-1">My projects. <span class="text-body-secondary">Portfolio.</span></h2>
+        </a>
+        
+        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+      </div>
+      <div class="col-md-5">
+            <img src="resources/img/portfolio.svg" style="max-width: 400px">
+      </div>
     </div>
+
+    <!-- <hr class="featurette-divider"> -->
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
+
+
+
 
 
     

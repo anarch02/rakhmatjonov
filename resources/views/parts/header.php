@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,22 +8,30 @@
 
     <!-- Link bootstrap -->
     <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/app.css"> -->
 
     <!-- Link bootstraps icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <style type="text/css">
+
+    </style>
 </head>
 <body>
 <div class="container">
-        <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap justify-content-between py-3 border-bottom">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-                <span class="fs-4">PHP</span>
+                <span class="fs-4">ANARCH02</span>
             </a>
 
             <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/" class="nav-link <?= uriIs('/') ?>" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About me</a></li>
-                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="/" class="nav-link text-dark">Home</a></li>
+                <li class="nav-item"><a href="/portfolio" class="nav-link text-dark">Portfolio</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link text-dark">About me</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link text-dark">Contact</a></li>
             </ul>
 
             <!-- <ul class="nav">
